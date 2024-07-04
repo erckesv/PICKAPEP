@@ -1,0 +1,32 @@
+Name,Variable,Type,Second_Reactant,Reaction_Smarts
+Amide,amide,headtail,0,"([NX3:1][CX4:2][CX3:3](=[O:4])[O].[NX3H,NX3H2:5][CX4:6][CX3:7](=[O:8])[NX3:9])>>[N:1][C:2][C:3](=[O:4])[N:5][C:6][C:7](=[O:8])[N:9]"
+Amide,amide,headsc,0,([NX3:1][CX4:2][CX3:3](=[O:4])[O].[NX3H2:5][CX4H2:6])>>[N:1][C:2][C:3](=[O:4])[N:5][C:6]
+Amide,amide,tailsc,0,"([c,CX4H2:2][CX3:3](=[O:4])[O].[NX3H2,NX3H:5][CX4:6][CX3:7](=[O:8])[NX3:9])>>[C:2][C:3](=[O:4])[N:5][C:6][C:7](=[O:8])[N:9]"
+Amide,amide,scsc,0,"([c,CX4H2:2][CX3:3](=[O:4])[O].[NX3H2:5][CX4H2:6])>>[C:2][C:3](=[O:4])[N:5][C:6]"
+Disulfide,disulfide,scsc,0,([SX2H1:1].[SX2H1:2])>>[SX2H0:1][SX2H0:2]
+Hydrocarbon (cis),rcmcis,scsc,0,([CX4:1][CX3:2]=[CH2].[CX4:3][CX3:4]=[CH2])>>[CX4:1]/[CX3:2]=[CX3:4]\[CX4:3]
+Hydrocarbon (trans),rcmtrans,scsc,0,([CX4:1][CX3:2]=[CH2].[CX4:3][CX3:4]=[CH2])>>[CX4:1]/[CX3:2]=[CX3:4]/[CX4:3]
+Triazole (CuAAC),cuaac,scsc,0,([NX2:1]=[N+:2]=[N-:3].[CX2:4]#[CX2H:5])>>[N:1]1[N+0:2]=[N+0:3][C:4]=[C:5]1
+Triazole (RuAAC),ruaac,scsc,0,([NX2:1]=[N+:2]=[N-:3].[CX2:4]#[CX2H:5])>>[N:1]1[N+0:2]=[N+0:3][C:5]=[C:4]1
+Alkyne (RCAM),rcam,scsc,0,([CX2:1]#[CX2][CH3].[CX2:2]#[CX2][CH3])>>[CX2:1]#[CX2:2]
+Diyne,diyne,scsc,0,([CX2:1]#[CX2H:2].[CX2:3]#[CX2H:4])>>[CX2:1]#[CX2:2][CX2:4]#[CX2:3]
+Thioether (Hal),thiohal,scsc,0,"([CX4:1][Cl,Br,I].[SX2H1:2])>>[CX4:1][SX2:2]"
+Thioether (DB),thiodb,scsc,0,([CX3H:1]=[CH2:2].[SX2H1:3])>>[C:1][C:2][SX2:3]
+Suzuki Miyaura,smc,scsc,0,"([CX3,cX3:1]~[CX3,cX3:2]([Cl,Br,I])~[CX3,cX3:3].[O][B]([C,c:4])[O])>>[C,c:1]~[C,c:2]([C,c:4])~[C,c:3]"
+Sonogashira,sono,scsc,0,"([CX3,cX3:1]~[CX3,cX3:2]([Cl,Br,I])~[CX3,cX3:3].[CX2:4]#[CX2H:5])>>[C,c:1]~[C,c:2]([C:5]#[C:4])~[C,c:3]"
+Heck,heck,scsc,0,"([CX3,cX3:1]~[CX3,cX3:2]([Cl,Br,I])~[CX3,cX3:3].[CX3H:4]=[CH2:5])>>[C,c:1]~[C,c:2]([C:5]=[C:4])~[C,c:3]"
+CH-activation (Trp),chtrp,scsc,0,([cX3:1]1[cX3:2][nX3:3][cX3:4]2[cX3:5][cX3:6][cX3:7][cX3:8][cX3:9]12.[I][cX3:10]1[cX3:11][cX3:12][cX3:13][cX3:14][cX3:15]1)>>[c:2]1([c:10]2[c:11][c:12][c:13][c:14][c:15]2)[c:1][c:9]3[c:8]([c:7][c:6][c:5][c:4]3)[n:3]1
+CH-activation (Phe),chphe,scsc,0,([C:1][c:2]1[c:3][c:4][c:5][c:6][c:7]1.[CX3H:8]=[CH2:9])>>[C:1][c:2]1[c:3]([C:9]=[C:8])[c:4][c:5][c:6][c:7]1
+CH-activation (Ala),chala,scsc,0,([CX4H3:1][CX4:2]([NX3:3])[CX3:4]=[O:5].[CX4H2:6][cX3:7]1[cX3:8][cX3:9](I)[cX3:10][cX3:11][cX3:12]1)>>[C:6][c:7]1[c:8][c:9][c:10][c:11]([C:1][C:2]([C:4]=[O:5])[N:3])[c:12]1
+Dichloroacetone (DCA),dca,twocomp,O=C(CCl)CCl,([CX4:1][SX2H1:2].[SX2H1:3][CX4:4]).[O:5]=[C:6]([C:7][Cl])[C:8][Cl]>>[O:5]=[C:6]([C:7][SX2:2][CX4:1])[C:8][SX2:3][CX4:4]
+Octadiene (ODI),odi,twocomp,C=CCCCCC=C,([CX4:1][SX2H1:2].[SX2H1:3][CX4:4]).[C:5]=[C:6][C:7][C:8][C:9][C:10][C:11]=[C:12]>>[C:1][S:2][C:5][C:6][C:7][C:8][C:9][C:10][C:11][C:12][S:3][C:4]
+Dibromooctane (DBO),dbo,twocomp,BrCCCCCCCCBr,([CX4:1][SX2H1:2].[SX2H1:3][CX4:4]).[Br][C:5][C:6][C:7][C:8][C:9][C:10][C:11][C:12][Br]>>[C:1][S:2][C:5][C:6][C:7][C:8][C:9][C:10][C:11][C:12][S:3][C:4]
+Bis(bromomethyl)benzene (BMB),bmb,twocomp,BrCc1ccc(CBr)cc1,([CX4:1][SX2H1:2].[SX2H1:3][CX4:4]).[Br][C:5][c:6]1[c:7][c:8][c:9]([C:10][Br])[c:11][c:12]1>>[C:1][S:2][C:5][c:6]1[c:7][c:8][c:9]([C:10][S:3][C:4])[c:11][c:12]1
+Hexafluorobenzene (HFB),hfb,twocomp,Fc1c(F)c(F)c(F)c(F)c1F,([CX4:1][SX2H1:2].[SX2H1:3][CX4:4]).[F:5][c:6]1[c:7]([F])[c:8]([F:9])[c:10]([F:11])[c:12]([F])[c:13]1[F:14]>>[F:5][c:6]1[c:7]([S:2][C:1])[c:8]([F:9])[c:10]([F:11])[c:12]([S:3][C:4])[c:13]1[F:14]
+Decafluorobiphenyl (DFB),dfb,twocomp,Fc1c(c2c(F)c(F)c(F)c(F)c2F)c(F)c(F)c(F)c1F,([CX4:1][SX2H1:2].[SX2H1:3][CX4:4]).[F:5][c:6]1[c:7]([c:8]2[c:9]([F:10])[c:11]([F:12])[c:13]([F])[c:14]([F:15])[c:16]2[F:17])[c:18]([F:19])[c:20]([F:21])[c:22]([F])[c:24]1[F:25]>>[F:5][c:6]1[c:7]([c:8]2[c:9]([F:10])[c:11]([F:12])[c:13]([S:2][C:1])[c:14]([F:15])[c:16]2[F:17])[c:18]([F:19])[c:20]([F:21])[c:22]([S:3][C:4])[c:24]1[F:25]
+Heptadiyne (HDI),hdi,twocomp,C#CCCCC#C,([NX2:1]=[N+:2]=[N-:3].[NX2:4]=[N+:5]=[N-:6]).[C:7]#[C:8][C:9][C:10][C:11][C:12]#[C:13]>>[N:1]1[C:7]=[C:8]([C:9][C:10][C:11][C:12]2=[C:13][N:4][N+0:5]=[N+0:6]2)[N+0:3]=[N+0:2]1
+Diethynylbenzoic acid (DBA),dba,twocomp,C#Cc1cc(C(O)=O)cc(C#C)c1,([NX2:1]=[N+:2]=[N-:3].[NX2:4]=[N+:5]=[N-:6]).[C:7]#[C:8][c:9]1[c:14][c:16]([C:17]([O:19])=[O:18])[c:15][c:11]([C:12]#[C:13])[c:10]1>>[N:1]1[C:7]=[C:8]([c:9]2[c:10][c:11]([C:12]3=[C:13][N:4][N+0:5]=[N+0:6]3)[c:15][c:16]([C:17]([O:19])=[O:18])[c:14]2)[N+0:3]=[N+0:2]1
+Decafluorodisphenylsulfone (DFS),dfs,twocomp,Fc1c(S(c2c(F)c(F)c(F)c(F)c2F)(=O)=O)c(F)c(F)c(F)c1F,([NX3H2:1][CX4H2:2].[NX3H2:3][CX4H2:4]).[F:5][c:6]1[c:7]([S:8]([c:9]2[c:10]([F:11])[c:12]([F:13])[c:14]([F])[c:15]([F:16])[c:17]2[F:18])(=[O:19])=[O:20])[c:21]([F:22])[c:23]([F:24])[c:25]([F])[c:26]1[F:27]>>[F:5][c:6]1[c:7]([S:8]([c:9]2[c:10]([F:11])[c:12]([F:13])[c:14]([N:1][C:2])[c:15]([F:16])[c:17]2[F:18])(=[O:19])=[O:20])[c:21]([F:22])[c:23]([F:24])[c:25]([N:3][C:4])[c:26]1[F:27]
+Dichlorotriazine (DCT),dct,twocomp,Clc1nc(NCc2cc(CNc3nc(Cl)nc(Cl)n3)ccc2)nc(Cl)n1,([NX3H2:1][CX4H2:2].[NX3H2:3][CX4H2:4]).[Cl:5][c:6]1[n:7][c:8]([N:9][C:10][c:11]2[c:12][c:13]([C:14][N:15][c:16]3[n:17][c:18]([Cl:19])[n:20][c:21]([Cl])[n:22]3)[c:23][c:24][c:25]2)[n:26][c:27]([Cl])[n:28]1>>[Cl:5][c:6]1[n:7][c:8]([N:9][C:10][c:11]2[c:12][c:13]([C:14][N:15][c:16]3[n:17][c:18]([Cl:19])[n:20][c:21]([N:3][C:4])[n:22]3)[c:23][c:24][c:25]2)[n:26][c:27]([N:1][C:2])[n:28]1
+Tris(bromomethyl)benzene (TBMB),tbmb,bicycle,BrCc1cc(CBr)cc(CBr)c1,([CX4:1][SX2H1:2].[SX2H1:3][CX4:4].[SX2H1:5][CX4:6]).[Br][C:7][c:8]1[c:9][c:10]([C:11][Br])[c:12][c:13]([C:14][Br])[c:15]1>>[C:1][S:2][C:7][c:8]1[c:9][c:10]([C:11][S:3][C:4])[c:12][c:13]([C:14][S:5][C:6])[c:15]1
+Trimesic acid (TMA),tma,bicycle,O=C(O)c1cc(C(O)=O)cc(C(O)=O)c1,([NX3H2:1][CX4H2:2].[NX3H2:3][CX4H2:4].[NX3H2:5][CX4H2:6]).[O:7]=[C:8]([O])[c:9]1[c:10][c:11]([C:12]([O])=[O:14])[c:15][c:16]([C:17]([O])=[O:18])[c:19]1>>[O:7]=[C:8]([N:1][C:2])[c:9]1[c:10][c:11]([C:12]([N:3][C:4])=[O:14])[c:15][c:16]([C:17]([N:5][C:6])=[O:18])[c:19]1

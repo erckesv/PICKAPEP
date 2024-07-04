@@ -1,0 +1,121 @@
+Type,Name,Entry_Letter,Entry_Code,Smiles
+Natural,Alanine,A,Ala,C[C@@H](C(=O)O)N
+Natural,Cysteine,C,Cys,C([C@@H](C(=O)O)N)S
+Natural,Aspartic Acid (Aspartate),D,Asp,C([C@@H](C(=O)O)N)C(=O)O
+Natural,Glutamic Acid (Glutamate),E,Glu,C(CC(=O)O)[C@@H](C(=O)O)N
+Natural,Phenylalanine,F,Phe,C1=CC=C(C=C1)C[C@@H](C(=O)O)N
+Natural,Glycine,G,Gly,C(C(=O)O)N
+Natural,Histidine,H,His,C1=C(NC=N1)C[C@@H](C(=O)O)N
+Natural,Isoleucine,I,Ile,CC[C@H](C)[C@@H](C(=O)O)N
+Natural,Lysine,K,Lys,C(CCN)C[C@@H](C(=O)O)N
+Natural,Leucine,L,Leu,CC(C)C[C@@H](C(=O)O)N
+Natural,Methionine,M,Met,CSCC[C@@H](C(=O)O)N
+Natural,Asparagine,N,Asn,C([C@@H](C(=O)O)N)C(=O)N
+Natural,Proline,P,Pro,C1C[C@H](NC1)C(=O)O
+Natural,Glutamine,Q,Gln,C(CC(=O)N)[C@@H](C(=O)O)N
+Natural,Arginine,R,Arg,O=C(O)[C@@H](N)CCCNC(N)=N
+Natural,Serine,S,Ser,C([C@@H](C(=O)O)N)O
+Natural,Threonine,T,Thr,C[C@H]([C@@H](C(=O)O)N)O
+Natural,Valine,V,Val,CC(C)[C@@H](C(=O)O)N
+Natural,Tryptophane,W,Trp,C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N
+Natural,Tyrosine,Y,Tyr,C1=CC(=CC=C1C[C@@H](C(=O)O)N)O
+D and N-Me,D-Alanine,Ad,,C[C@H](C(=O)O)N
+D and N-Me,D-Cysteine,Cd,,C([C@H](C(=O)O)N)S
+D and N-Me,D-Aspartic Acid (Aspartate),Dd,,C([C@H](C(=O)O)N)C(=O)O
+D and N-Me,D-Glutamic Acid (Glutamate),Ed,,C(CC(=O)O)[C@H](C(=O)O)N
+D and N-Me,D-Phenylalanine,Fd,,C1=CC=C(C=C1)C[C@H](C(=O)O)N
+D and N-Me,D-Glycine,Gd,,C(C(=O)O)N
+D and N-Me,D-Histidine,Hd,,C1=C(NC=N1)C[C@H](C(=O)O)N
+D and N-Me,D-Isoleucine,Id,,CC[C@@H](C)[C@H](C(=O)O)N
+D and N-Me,D-Lysine,Kd,,C(CCN)C[C@H](C(=O)O)N
+D and N-Me,D-Leucine,Ld,,CC(C)C[C@H](C(=O)O)N
+D and N-Me,D-Methionine,Md,,CSCC[C@H](C(=O)O)N
+D and N-Me,D-Asparagine,Nd,,C([C@H](C(=O)O)N)C(=O)N
+D and N-Me,D-Proline,Pd,,C1C[C@@H](NC1)C(=O)O
+D and N-Me,D-Glutamine,Qd,,C(CC(=O)N)[C@H](C(=O)O)N
+D and N-Me,D-Arginine,Rd,,O=C(O)[C@H](N)CCCNC(N)=N
+D and N-Me,D-Serine,Sd,,C([C@H](C(=O)O)N)O
+D and N-Me,D-Threonine,Td,,C[C@@H]([C@H](C(=O)O)N)O
+D and N-Me,D-Valine,Vd,,CC(C)[C@H](C(=O)O)N
+D and N-Me,D-Tryptophane,Wd,,C1=CC=C2C(=C1)C(=CN2)C[C@H](C(=O)O)N
+D and N-Me,D-Tyrosine,Yd,,C1=CC(=CC=C1C[C@H](C(=O)O)N)O
+D and N-Me,Alanine,Anme,,C[C@@H](C(=O)O)NC
+D and N-Me,Cysteine,Cnme,,CN[C@@H](CS)C(=O)O
+D and N-Me,Aspartic Acid (Aspartate),Dnme,,CN[C@@H](CC(=O)O)C(=O)O
+D and N-Me,Glutamic Acid (Glutamate),Enme,,CN[C@@H](CCC(=O)O)C(=O)O
+D and N-Me,Phenylalanine,Fnme,,CN[C@@H](CC1=CC=CC=C1)C(=O)O
+D and N-Me,Glycine,Gnme,,O=C(O)CNC
+D and N-Me,Histidine,Hnme,,CN[C@@H](CC1=CN=CN1)C(=O)O
+D and N-Me,Isoleucine,Inme,,CC[C@@H]([C@H](NC)C(O)=O)C
+D and N-Me,Lysine,Knme,,NCCCC[C@@H](NC)C(O)=O
+D and N-Me,Leucine,Lnme,,CC(C[C@H](NC)C(O)=O)C
+D and N-Me,Methionine,Mnme,,CN[C@@H](CCSC)C(=O)O
+D and N-Me,Asparagine,Nnme,,O=C(O)[C@@H](NC)CC(N)=O
+D and N-Me,Proline,Pnme,,CN1CCC[C@H]1C(=O)O
+D and N-Me,Glutamine,Qnme,,O=C(N)CC[C@@H](NC)C(O)=O
+D and N-Me,Arginine,Rnme,,O=C([C@H](CCCNC(N)=N)NC)O
+D and N-Me,Serine,Snme,,CN[C@@H](CO)C(=O)O
+D and N-Me,Threonine,Tnme,,C[C@@H](O)[C@H](NC)C(O)=O
+D and N-Me,Valine,Vnme,,CC(C)[C@@H](C(=O)O)NC
+D and N-Me,Tryptophane,Wnme,,O=C(O)[C@@H](NC)CC1=CNC2=CC=CC=C21
+D and N-Me,Tyrosine,Ynme,,O=C(O)[C@H](NC)CC1=CC=C(O)C=C1
+Non-natural,Aminoisobutyricacid,Aib,,CC(C)(C(=O)O)N
+Non-natural,Aminobutyricacid,Abu,,O=C(O)[C@@H](N)CC
+Non-natural,Citrulline,Cit,,C(C[C@@H](C(=O)O)N)CNC(=O)N
+Non-natural,Diaminobutyric acid,Dab,,O=C([C@H](CCN)N)O
+Non-natural,Diaminopropionic acid,Dap,,O=C([C@H](CN)N)O
+Non-natural,"(2S, 3R, 4R, 6E)-3-hydroxy-4-methyl-2-(methylamino)-6-octenoicacid",Mebmt,,C/C=C/C[C@H]([C@H](C(C(O)=O)NC)O)C
+Non-natural,Norleucine,Nle,,CCCC[C@@H](C(=O)O)N
+Non-natural,Ornithine,Orn,,C(C[C@@H](C(=O)O)N)CN
+Non-natural,Methylarginine,Rme,,O=C(O)[C@@H](N)CCCNC(NC)=N
+Non-natural,Sarcosine,Sar,,O=C(O)CNC
+Non-natural,Selenocysteine,U,,O=C(O)[C@@H](N)C[SeH]
+Non-natural,O-Propargylserine,Sprp,,O=C(O)[C@@H](N)COCC#C
+Non-natural,L-Propargylglycine,Prp,,O=C(O)[C@@H](N)CC#C
+Non-natural,L-Azidohomoalanine,Az2,,O=C(O)[C@@H](N)CCN=[N+]=[N-]
+Non-natural,L-Azidonorleucine,Az4,,O=C(O)[C@@H](N)CCCCN=[N+]=[N-]
+Non-natural,p-Azophenylalanine,Fpaz,,N[C@@H](CC1=CC=C(N=[N+]=[N-])C=C1)C(O)=O
+Non-natural,R-pentenylalanine,R5,,N[C@](C)(CCCC=C)C(O)=O
+Non-natural,S-pentenylalanine,S5,,N[C@@](C)(CCCC=C)C(O)=O
+Non-natural,R-octenylalanine,R8,,N[C@](CCCCCCC=C)(C(O)=O)C
+Non-natural,S-octenylalanine,S8,,N[C@@](CCCCCCC=C)(C(O)=O)C
+Non-natural,R-heptynylalanine,R7t,,N[C@](C(O)=O)(C)CCCCCC#C
+Non-natural,S-heptynylalanine,S7t,,N[C@@](C(O)=O)(C)CCCCCC#C
+Non-natural,4-Bromo-L-phenylalanine,Br4pa,,N[C@@H](CC1=CC=C(Br)C=C1)C(O)=O
+Non-natural,3-Iodo-L-phenylalanine,I3pa,,N[C@@H](CC1=CC(I)=CC=C1)C(O)=O
+Non-natural,Cyclobutylalanine,Cba,,O=C([C@H](CC1CCC1)N)O
+Non-natural,Cyclohexylalanine,Cha,,O=C(O)[C@H](CC1CCCCC1)N
+Non-natural,1-aminocyclopentanecarboxylic acid,Acvc,,O=C(C1(N)CCCC1)O
+Non-natural,1-aminocyclobutanecarboxylic acid,Acbc,,O=C(O)C1(CCC1)N
+Non-natural,1-aminocyclopropylcarboxylic acid,Acpc,,O=C(O)C1(CC1)N
+Non-natural,Methylpentynylalanine,Mpa,,O=C([C@](C)(CCCC#CC)N)O
+Non-natural,4-Bpin-L-phenylalanine,Bp4pa,,N[C@@H](CC1=CC=C(B2OC(C)(C)C(C)(C)O2)C=C1)C(O)=O
+Non-natural,Bis-pentenylglycine,B5,,NC(CCCC=C)(C(O)=O)CCCC=C
+Non-natural,cis-4-Fluoroproline,Pfcis,,O=C(O)[C@H]1NC[C@@H](F)C1
+Non-natural,trans-4-Fluoroproline,Pftrans,,O=C(O)[C@H]1NC[C@H](F)C1
+Non-natural,cis-4-Hydroxyproline,Hypcis,,O=C(O)[C@H]1NC[C@@H](O)C1
+Non-natural,trans-4-Hydroxyproline,Hyptrans,,O=C(O)[C@H]1NC[C@H](O)C1
+Peptoid,N-methylglycine,Nala,,O=C(O)CNC
+Peptoid,N-carboxymethylglycine,Nasp,,O=C(CNCC(O)=O)O
+Peptoid,N-carboxyethylglycine,Nglu,,O=C(CNCCC(O)=O)O
+Peptoid,N-benzylglycine,Nphe,,O=C(CNCC1=CC=CC=C1)O
+Peptoid,N-(methylimidazole)glycine,Nhis,,O=C(O)CNCC1=CN=CN1
+Peptoid,N-Sec-butylglycine,Nile,,O=C(CNC(C)CC)O
+Peptoid,N-(4-aminobutyl)glycine,Nlys,,O=C(CNCCCCN)O
+Peptoid,N-Isobutylglycine,Nleu,,O=C(CNCC(C)C)O
+Peptoid,N-2-(methylthio)ethylglycine,Nmet,,O=C(CNCCSC)O
+Peptoid,N-(2-amino-2-oxoethyl)glycine,Nasn,,O=C(CNCC(N)=O)O
+Peptoid,N-(3-amino-3-oxoethyl)glycine,Ngln,,O=C(O)CNCCC(N)=O
+Peptoid,N-(3-guanidinylpropyl)glycine,Narg,,O=C(O)CNCCCNC(N)=N
+Peptoid,N-(hydroxymethyl)glycine,Nser,,O=C(CNCO)O
+Peptoid,N-Isopropylglycine,Nval,,O=C(CNC(C)C)O
+Peptoid,N-[2-(1h-indol-3-yl)methyl]glycine,Ntrp,,O=C(O)CNCC1=CNC2=CC=CC=C21
+Peptoid,N-4-Hydroxybenzylglycine,Ntyr,,O=C(O)CNCC1=CC=C(O)C=C1
+Peptoid,N-Aminoethylglycine,Nae,,O=C(O)CNCCN
+Peptoid,N-phenylglycine,Nph,,O=C(CNC1=CC=CC=C1)O
+Peptoid,N-phenylethylglycine,Npe,,O=C(O)CNCCC1=CC=CC=C1
+Peptoid,(R)-N-(1-phenylethyl)glycine,Nrpe,,O=C(O)CN[C@@](C)([H])C1=CC=CC=C1
+Peptoid,(S)-N-(1-phenylethyl)glycine,Nspe,,O=C(O)CN[C@](C)([H])C1=CC=CC=C1
+Peptoid,(S)-N-(1-naphthylethyl)glycine,Nsna,,O=C(O)CN[C@](C)([H])C1=CC=C(C=CC=C2)C2=C1
+Peptoid,N-propargylglycine,Nprp,,O=C(O)CNCC#C
+Peptoid,N-azidopropylglycine,Naz3,,O=C(O)CNCCCN=[N+]=[N-]

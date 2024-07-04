@@ -1,0 +1,50 @@
+ModType,Name,Variable,Type,Smiles,SmartsReaction
+fa,C8 (Octanoic acid),c8ac,fattyac,CCCCCCCC(O)=O,[CX4H2:1][CX3:2](=[O:3])[O].[NX3H2:4][CX4:5]>>[C:1][C:2](=[O:3])[N:4][C:5]
+fa,C10 (Decanoic acid),c10ac,fattyac,CCCCCCCCCC(O)=O,[CX4H2:1][CX3:2](=[O:3])[O].[NX3H2:4][CX4:5]>>[C:1][C:2](=[O:3])[N:4][C:5]
+fa,C12 (Dodecanoic acid),c12ac,fattyac,CCCCCCCCCCCC(O)=O,[CX4H2:1][CX3:2](=[O:3])[O].[NX3H2:4][CX4:5]>>[C:1][C:2](=[O:3])[N:4][C:5]
+fa,C14 (Tetradecanoic acid),c14ac,fattyac,CCCCCCCCCCCCCC(O)=O,[CX4H2:1][CX3:2](=[O:3])[O].[NX3H2:4][CX4:5]>>[C:1][C:2](=[O:3])[N:4][C:5]
+fa,C16 (Hexadecanoicacid),c16ac,fattyac,CCCCCCCCCCCCCCCC(O)=O,[CX4H2:1][CX3:2](=[O:3])[O].[NX3H2:4][CX4:5]>>[C:1][C:2](=[O:3])[N:4][C:5]
+fa,C18 (Octadecanoic acid),c18ac,fattyac,CCCCCCCCCCCCCCCCCC(O)=O,[CX4H2:1][CX3:2](=[O:3])[O].[NX3H2:4][CX4:5]>>[C:1][C:2](=[O:3])[N:4][C:5]
+fa,C20 (Eicosanoic acid),c20ac,fattyac,O=C(O)CCCCCCCCCCCCCCCCCCC,[CX4H2:1][CX3:2](=[O:3])[O].[NX3H2:4][CX4:5]>>[C:1][C:2](=[O:3])[N:4][C:5]
+fa,C18-COOH (Octadecanedioic acid),c18diac,fattyac,O=C(O)CCCCCCCCCCCCCCCCC(O)=O,[CX4H2:1][CX3:2](=[O:3])[O].[NX3H2:4][CX4:5]>>[C:1][C:2](=[O:3])[N:4][C:5]
+fa,C20-COOH (Eicosanedioic acid),c20diac,fattyac,O=C(O)CCCCCCCCCCCCCCCCCCC(O)=O,[CX4H2:1][CX3:2](=[O:3])[O].[NX3H2:4][CX4:5]>>[C:1][C:2](=[O:3])[N:4][C:5]
+fa,Biotin,biotin,fattyac,[H][C@]1(N2)[C@@](CS[C@H]1CCCCC(O)=O)([H])NC2=O,[CX4H2:1][CX3:2](=[O:3])[O].[NX3H2:4][CX4:5]>>[C:1][C:2](=[O:3])[N:4][C:5]
+fa,y-Glu,yglu,linker,C(CC(=O)O)[C@@H](C(=O)O)N,[CX4H2:1][CX3:2](=[O:3])[O].[NX3H2:4][CX4:5]>>[C:1][C:2](=[O:3])[N:4][C:5]
+fa,Ado,ado,spacer,NCCOCCOCC(O)=O,[CX4H2:1][CX3:2](=[O:3])[O].[NX3H2:4][CX4:5]>>[C:1][C:2](=[O:3])[N:4][C:5]
+fa,Peg2-Amine,peg2am,spacer,NCCOCCOCCN,[CX4H2:1][CX3:2](=[O:3])[O].[NX3H2:4][CX4:5]>>[C:1][C:2](=[O:3])[N:4][C:5]
+fa,Fa-Lys,fa_lys,fattyac_atc,,[NX3H2:4][CX4H2:5][CX4:6].[CX4H2:1][CX3:2](=[O:3])[O]>>[C:1][C:2](=[O:3])[N:4][C:5][C:6]
+fa,Fa-Ac,fa_ac,fattyac_atc,,[CX4H2:1][CX3:2](=[O:3])[O].[NX3H2:4][CX4H2:5][CX4H2:6]>>[C:1][C:2](=[O:3])[N:4][C:5][C:6]
+fa,Fa-Cys,fa_cys,fattyac_atc,,[SX2H1:4][CX4H2:5].[CX4H2:1][CX3:2](=[O:3])[O]>>[C:1][C:2](=[O:3])[S:4][C:5]
+so,Sulfenic Acid (Cys),sulfeac,cys,,[CX4H2:1][SH:2]>>[C:1][S:2][OH]
+so,Sulfinic Acid (Cys),sulfiac,cys,,[CX4H2:1][SH:2]>>[C:1][S:2](=O)[OH]
+so,Sulfonic Acid (Cys),sulfoac,cys,,[CX4H2:1][SH:2]>>[C:1][S:2](=O)(=O)[OH]
+so,Sulfoxide (Met),sulfox,met,,[CX4H2:1][S:2][CX4H3:3]>>[C:1][S:2](=O)[C:3]
+so,Sulfone (Met),sulfone,met,,[CX4H2:1][S:2][CX4H3:3]>>[C:1][S:2](=O)(=O)[C:3]
+bala,Betaalanine,bala,bala,,[NX3:1][CX4:2]([CX3:3]=[O:4])[CX4H3:5]>>[N:1][C:2][C:5][C:3]=[O:4]
+isoasp,Iso-aspartate,isoasp,isoasp,,[NX3:1][CX4:2]([CX3:3]([NX3:4][CX4:5])=[O:6])[CX4H2:7][CX3:8]([O:9])=[O:10]>>[N:1][C:2]([C:7][C:3]([N:4][C:5])=[O:6])[C:8]([O:9])=[O:10]
+asp,Aspartimide,aspim,aspim,,[NX3:1][CX4:2]([CX3:3]([NX3H:4][CX4:5])=[O:6])[CX4H2:7][CX3:8]([O])=[O:9]>>[N:1][C:2]([C:3]([N:4]1[C:5])=[O:6])[C:7][C:8]1=[O:9]
+phos,Phosphorylation,phos,phos,,"[NX3,cX3H:1]~[CX4,cX3H:2]~[CX4H,CX4H2,cX3:3][OH]>>[N,c:1]~[C,c:2]~[C,c:3][O][P]([O])([O])=[O]"
+glyc,a-D-Glc,n_adglc,n,O[C@@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO,[CX4H2:1][CX3:2](=[O:3])[N:4].[O][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[C:1][C:2](=[O:3])[N:4][C:5][O:6][C:7][C:8][O:9]
+glyc,a-D-Gal,n_adgal,n,O[C@@H](O1)[C@H](O)[C@@H](O)[C@@H](O)[C@H]1CO,[CX4H2:1][CX3:2](=[O:3])[N:4].[O][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[C:1][C:2](=[O:3])[N:4][C:5][O:6][C:7][C:8][O:9]
+glyc,a-D-Man,n_adman,n,O[C@@H](O1)[C@@H](O)[C@@H](O)[C@H](O)[C@H]1CO,[CX4H2:1][CX3:2](=[O:3])[N:4].[O][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[C:1][C:2](=[O:3])[N:4][C:5][O:6][C:7][C:8][O:9]
+glyc,a-D-GlcNAc,n_adglcnac,n,O[C@@H](O1)[C@H](NC(C)=O)[C@@H](O)[C@H](O)[C@H]1CO,[CX4H2:1][CX3:2](=[O:3])[N:4].[O][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[C:1][C:2](=[O:3])[N:4][C:5][O:6][C:7][C:8][O:9]
+glyc,a-D-GalNAc,n_adgalnac,n,O[C@@H](O1)[C@H](NC(C)=O)[C@@H](O)[C@@H](O)[C@H]1CO,[CX4H2:1][CX3:2](=[O:3])[N:4].[O][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[C:1][C:2](=[O:3])[N:4][C:5][O:6][C:7][C:8][O:9]
+glyc,a-D-ManNAc,n_admannac,n,O[C@@H](O1)[C@@H](NC(C)=O)[C@@H](O)[C@H](O)[C@H]1CO,[CX4H2:1][CX3:2](=[O:3])[N:4].[O][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[C:1][C:2](=[O:3])[N:4][C:5][O:6][C:7][C:8][O:9]
+glyc,b-D-Glc,n_bdglc,n,O[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO,[CX4H2:1][CX3:2](=[O:3])[N:4].[O][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[C:1][C:2](=[O:3])[N:4][C:5][O:6][C:7][C:8][O:9]
+glyc,b-D-Gal,n_bdgal,n,O[C@H](O1)[C@H](O)[C@@H](O)[C@@H](O)[C@H]1CO,[CX4H2:1][CX3:2](=[O:3])[N:4].[O][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[C:1][C:2](=[O:3])[N:4][C:5][O:6][C:7][C:8][O:9]
+glyc,b-D-Man,n_bdman,n,O[C@H](O1)[C@@H](O)[C@@H](O)[C@H](O)[C@H]1CO,[CX4H2:1][CX3:2](=[O:3])[N:4].[O][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[C:1][C:2](=[O:3])[N:4][C:5][O:6][C:7][C:8][O:9]
+glyc,b-D-GlcNAc,n_bdglcnac,n,O[C@H](O1)[C@H](NC(C)=O)[C@@H](O)[C@H](O)[C@H]1CO,[CX4H2:1][CX3:2](=[O:3])[N:4].[O][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[C:1][C:2](=[O:3])[N:4][C:5][O:6][C:7][C:8][O:9]
+glyc,b-D-GalNAc,n_bdgalnac,n,O[C@H](O1)[C@H](NC(C)=O)[C@@H](O)[C@@H](O)[C@H]1CO,[CX4H2:1][CX3:2](=[O:3])[N:4].[O][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[C:1][C:2](=[O:3])[N:4][C:5][O:6][C:7][C:8][O:9]
+glyc,b-D-ManNAc,n_bdmannac,n,O[C@H](O1)[C@@H](NC(C)=O)[C@@H](O)[C@H](O)[C@H]1CO,[CX4H2:1][CX3:2](=[O:3])[N:4].[O][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[C:1][C:2](=[O:3])[N:4][C:5][O:6][C:7][C:8][O:9]
+glyc,a-D-Glc,o_adglc,o,O[C@@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO,"[NX3:1][CX4:2][CX4H,CX4H2:3][OH].[O:4][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[N:1][C:2][C:3][O:4][C:5][O:6][C:7][C:8][O:9]"
+glyc,a-D-Gal,o_adgal,o,O[C@@H](O1)[C@H](O)[C@@H](O)[C@@H](O)[C@H]1CO,"[NX3:1][CX4:2][CX4H,CX4H2:3][OH].[O:4][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[N:1][C:2][C:3][O:4][C:5][O:6][C:7][C:8][O:9]"
+glyc,a-D-Man,o_adman,o,O[C@@H](O1)[C@@H](O)[C@@H](O)[C@H](O)[C@H]1CO,"[NX3:1][CX4:2][CX4H,CX4H2:3][OH].[O:4][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[N:1][C:2][C:3][O:4][C:5][O:6][C:7][C:8][O:9]"
+glyc,a-D-GlcNAc,o_adglcnac,o,O[C@@H](O1)[C@H](NC(C)=O)[C@@H](O)[C@H](O)[C@H]1CO,"[NX3:1][CX4:2][CX4H,CX4H2:3][OH].[O:4][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[N:1][C:2][C:3][O:4][C:5][O:6][C:7][C:8][O:9]"
+glyc,a-D-GalNAc,o_adgalnac,o,O[C@@H](O1)[C@H](NC(C)=O)[C@@H](O)[C@@H](O)[C@H]1CO,"[NX3:1][CX4:2][CX4H,CX4H2:3][OH].[O:4][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[N:1][C:2][C:3][O:4][C:5][O:6][C:7][C:8][O:9]"
+glyc,a-D-ManNAc,o_admannac,o,O[C@@H](O1)[C@@H](NC(C)=O)[C@@H](O)[C@H](O)[C@H]1CO,"[NX3:1][CX4:2][CX4H,CX4H2:3][OH].[O:4][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[N:1][C:2][C:3][O:4][C:5][O:6][C:7][C:8][O:9]"
+glyc,b-D-Glc,o_bdglc,o,O[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO,"[NX3:1][CX4:2][CX4H,CX4H2:3][OH].[O:4][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[N:1][C:2][C:3][O:4][C:5][O:6][C:7][C:8][O:9]"
+glyc,b-D-Gal,o_bdgal,o,O[C@H](O1)[C@H](O)[C@@H](O)[C@@H](O)[C@H]1CO,"[NX3:1][CX4:2][CX4H,CX4H2:3][OH].[O:4][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[N:1][C:2][C:3][O:4][C:5][O:6][C:7][C:8][O:9]"
+glyc,b-D-Man,o_bdman,o,O[C@H](O1)[C@@H](O)[C@@H](O)[C@H](O)[C@H]1CO,"[NX3:1][CX4:2][CX4H,CX4H2:3][OH].[O:4][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[N:1][C:2][C:3][O:4][C:5][O:6][C:7][C:8][O:9]"
+glyc,b-D-GlcNAc,o_bdglcnac,o,O[C@H](O1)[C@H](NC(C)=O)[C@@H](O)[C@H](O)[C@H]1CO,"[NX3:1][CX4:2][CX4H,CX4H2:3][OH].[O:4][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[N:1][C:2][C:3][O:4][C:5][O:6][C:7][C:8][O:9]"
+glyc,b-D-GalNAc,o_bdgalnac,o,O[C@H](O1)[C@H](NC(C)=O)[C@@H](O)[C@@H](O)[C@H]1CO,"[NX3:1][CX4:2][CX4H,CX4H2:3][OH].[O:4][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[N:1][C:2][C:3][O:4][C:5][O:6][C:7][C:8][O:9]"
+glyc,b-D-ManNAc,o_bdmannac,o,O[C@H](O1)[C@@H](NC(C)=O)[C@@H](O)[C@H](O)[C@H]1CO,"[NX3:1][CX4:2][CX4H,CX4H2:3][OH].[O:4][CX4H:5][O:6][CX4H:7][CX4H2:8][O:9]>>[N:1][C:2][C:3][O:4][C:5][O:6][C:7][C:8][O:9]"
